@@ -1,0 +1,452 @@
+/* ////////////////////////////////////// */
+/* max-width: 1400px */
+/* ///////////////////////////////////// */
+
+@media (max-width :1400px) {
+    .agency-logo-box {
+        top: -23rem;
+    }
+
+    .fb {
+        right: 80px;
+    }
+
+    .twitter {
+        right: -315px;
+    }
+}
+
+/* ////////////////////////////////////// */
+/* max-width: 1200px */
+/* ///////////////////////////////////// */
+
+@media (max-width :1200px) {
+    .testimonial-section {
+        margin-right: 0;
+    }
+
+    .card-content::before,
+    .card-content::after {
+        display: none;
+    }
+
+    .card-description-box {
+        flex: 0 0 80%;
+        width: 80%;
+    }
+
+    .video-control-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .agency-logo-box {
+        top: -20rem;
+    }
+
+    .twitter {
+        right: -260px;
+    }
+
+    .section-socialmedia .container {
+        padding: 0;
+    }
+
+    .socialmedia-card {
+        border-radius: 0;
+    }
+}
+
+/* ////////////////////////////////////// */
+/* max-width: 992px */
+/* ///////////////////////////////////// */
+
+@media(max-width : 992px) {
+
+    .heading-primary {
+        font-size: 36px;
+    }
+
+    .heading-secondary {
+        font-size: 30px;
+    }
+
+    .heading-tertiary {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+
+    .hero-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-box {
+        flex: 0 0 70%;
+        width: 70%;
+        text-align: center;
+    }
+
+    .form-box-inner {
+        display: none;
+    }
+
+    .sign-up-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature-box {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .feature-img {
+        flex: 0 0 80%;
+        width: 80%;
+    }
+
+    .feature-content-right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .feature-content {
+        width: 60%;
+        text-align: center;
+    }
+
+    .feature-link:link {
+        font-size: 13px;
+    }
+
+    .feature-arrow {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .testimonial-img-box {
+        order: -1;
+    }
+
+    .testimonial-img {
+        width: 75%;
+    }
+
+    .testimonial-content {
+        flex: 0 0 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .testimonial-description {
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .pagenation {
+        justify-content: center;
+    }
+
+    .video-control-box {
+        width: 40px;
+        height: 40px;
+    }
+
+    .fa-play {
+        font-size: 16px;
+    }
+
+    .customer-logo-box {
+        width: 80%;
+    }
+
+    .rating-2 .customer-logo-box {
+        background-position: -161px -46px;
+    }
+
+    .rating-3 .customer-logo-box {
+        background-position: -123px -60px;
+    }
+
+    .rating-4 .customer-logo-box {
+        width: 100%;
+    }
+
+    .btn-learn {
+        padding: 4px 24px;
+        font-size: 16px;
+    }
+
+    .agency-logo-box {
+        top: -18rem;
+    }
+
+    .fb {
+        right: 65px;
+    }
+
+    .twitter {
+        right: -210px;
+    }
+
+    .customer-head {
+        font-size: 22px;
+    }
+
+    .card-inner {
+        padding: 15px;
+    }
+
+    .achievement-logo-forbes {
+        width: 100%;
+        left: 0;
+    }
+
+
+
+
+    .author {
+        font-size: 20px;
+    }
+
+    .role {
+        font-size: 16px;
+    }
+
+    .quote {
+        margin-bottom: 20px;
+    }
+
+    .page {
+        height: 10px;
+        width: 10px;
+    }
+
+    .agency-description {
+        margin: 0 18rem 20px;
+    }
+
+
+    .agency-description,
+    .insta-text,
+    .media-text {
+        font-size: 16px;
+    }
+
+}
+
+/* ////////////////////////////////////// */
+/* max-width: 768px */
+/* ///////////////////////////////////// */
+
+@media(max-width : 768px) {
+
+    .heading-primary {
+        font-size: 30px;
+    }
+
+    .heading-secondary {
+        font-size: 25px;
+    }
+
+    .heading-tertiary {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+
+    .main-nav {
+        justify-content: center;
+    }
+
+    .nav-lists {
+        display: none;
+    }
+
+    .banner-section {
+        display: none;
+    }
+
+    .section-achievemnt {
+        padding-block: 50px;
+
+    }
+
+    .card {
+        flex: 0 0 70%;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .achievement-logo-forbes {
+        width: 60%;
+        left: 35px;
+    }
+
+    .feature-content {
+        width: 85%;
+    }
+
+    .insta-img-box {
+
+        flex: 0 0 35%;
+        width: 35%;
+        padding: 0 20px;
+    }
+
+    .testimonial-description {
+        font-size: 22px;
+    }
+
+    .agency-description {
+        margin: 0 8rem 30px;
+    }
+
+    .agency-mobile-img {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .agency-img,
+    .agency-logo-box {
+        display: none;
+    }
+
+    .customer-rating-box {
+        flex: 0 0 25%;
+        width: 25%;
+    }
+
+    .customer-logo-box {
+        width: 70%;
+    }
+
+    .media-img-box {
+        flex: 0 0 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .media-text-box {
+        flex: 0 0 100%;
+        width: 100%;
+        order: -1;
+        text-align: center;
+    }
+
+    .media-img-box img {
+        width: 200px;
+    }
+
+    .ios {
+        right: 12.4rem;
+    }
+
+    .social-media-store {
+        justify-content: center;
+    }
+
+    .insta-img-container {
+        margin-bottom: 300px;
+    }
+
+    .insta-text {
+        margin: 0 9rem 2rem 9rem;
+    }
+
+    .brand-video {
+        display: none;
+    }
+}
+
+/* ////////////////////////////////////// */
+/* max-width: 576px */
+/* ///////////////////////////////////// */
+
+@media(max-width : 576px) {
+
+    .text-box {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .hero-description {
+        font-size: 17px;
+    }
+
+    .heading-primary {
+        font-size: 28px;
+    }
+
+    .heading-secondary {
+        font-size: 23px;
+    }
+
+    .card {
+        flex: 0 0 80%;
+        width: 80%;
+    }
+
+    .feature-content {
+        flex: 0 0 100%;
+        width: 100%;
+        text-align: left;
+    }
+
+    .feature-text {
+        font-size: 15px;
+    }
+
+    .insta-inner {
+        text-align: left;
+    }
+
+    .insta-text {
+        margin: 10px 0 20px;
+    }
+
+    .insta-img-container {
+        margin-bottom: 500px;
+    }
+
+    .insta-img-box {
+        flex: 0 0 55%;
+        width: 55%;
+    }
+
+    .agency-description {
+        font-size: 14px;
+        margin: 0 0 30px;
+    }
+
+    .customer-rating-box {
+        flex: 0 0 35%;
+        width: 35%;
+    }
+
+    .brand-description {
+        font-size: 14px;
+    }
+
+    .ios {
+        right: 3.4rem;
+    }
+
+    .faq-title {
+        font-size: 16px;
+    }
+
+    .item-body p {
+        font-size: 14px;
+    }
+
+
+}
