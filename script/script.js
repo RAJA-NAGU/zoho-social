@@ -57,7 +57,7 @@ window.addEventListener("scroll", () => {
   const scrollHeight = window.scrollY
   const sectionTop = agencysection.offsetTop
   const sectionHeight = agencysection.offsetHeight
-  const stopposition = sectionTop + sectionHeight - window.innerHeight 
+  const stopposition = sectionTop + sectionHeight - window.innerHeight + 300
   
   if (scrollHeight >= sectionTop && scrollHeight <= stopposition) {
     const translateX = (scrollHeight - sectionTop) * -0.3
